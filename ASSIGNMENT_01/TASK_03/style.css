@@ -1,0 +1,33 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.card{
+    width: 375px;
+    margin: 50px auto;
+    border: 1px solid lightgray;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.card-img{
+    width: 100%;
+    border-radius: 10px;
+}    
+
+.heading{
+    font-size: 30px;
+}
+
+.content{
+    color: gray;
+}
+
+.btn{
+    padding: 10px 20px;
+    border-radius: 8px;
+    border: 2px solid lightgray;
+    color: rgb(5, 166, 246);
+    background-color: white;
+    font-size: 20px;
+}
