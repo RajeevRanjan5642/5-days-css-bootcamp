@@ -1,0 +1,68 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.box{
+    /* border: 1px solid lightgray; */
+    padding: 110px 60px;
+    margin: 50px auto; 
+    /*(T,B),(L,R)*/
+    /* auto only works for left and right */
+    /* border-radius: 30px; */
+    background-color: orangered;
+    width: 700px;
+}
+
+/* .box-img{
+    border-radius: 14px;
+    width: 100%;
+} */
+
+.btn{
+    padding: 10px;
+    border: none;
+    margin-top: 20px;
+    color: black;
+}
+
+.login{
+    text-align: center;
+    width: 350px;
+    margin: 120px auto;
+    /* border: 3px solid red; */
+    padding: 16px;
+}
+
+.input{
+    width: 100%;
+    margin-bottom: 12px;
+    padding: 15px;
+    box-sizing: border-box;
+    /*box-sizing: border ensures that when you are
+    using padding, the content is not going outside 
+    the parent element*/
+    font-size: 16px;
+    border: 2px solid lightgray;
+}
+
+.login-btn{
+    padding: 15px;
+    font-size: 16px;
+    background-color: black;
+    width: 100%;
+    color: white;
+    border: none;
+}
+
+/*
+box model :
+1. border : thickness, style, color
+2. padding : space inside the border
+3. margin : space outside the border
+*/
+
+/*
+div is used for two reasons :
+1. To structure/organize your code.
+2. You can apply css to all inner elements in one shot.
+*/
