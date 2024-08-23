@@ -2,11 +2,10 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.box{
+.card{
     border: 1px solid lightgray;
     width: 500px;
     border-radius: 15px;
-    padding: 30px;
     margin: 150px auto;
 }
 
@@ -33,7 +32,7 @@ body{
 
 .profile{
     border-radius: 50%;
-    border: 2px solid #ddd;
+    border: 2px solid lightgray;
     width: 20%;
     overflow: hidden;
 }
@@ -44,10 +43,18 @@ body{
     object-fit: cover;
 }
 
+.link{
+    border-top: 1px solid lightgray;
+    padding: 20px 30px;
+}
+
 .see-profile{
-    display: inline-block;
     text-decoration: none;
     font-size: 20px;
+}
+
+.padding{
+    padding: 30px;
 }
 
 
